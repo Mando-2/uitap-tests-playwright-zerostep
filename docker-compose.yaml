@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  test:
+    build: ./
+    image: uitap-tests-playwright-zerostep  
+    depends_on:
+      - web
+  web:
+    image: ghcr.io/mando-2/ui-test-automation-playground-ghcr:latest
+    container_name: uitap-site
+    ports:
+      - "3000:3000"
