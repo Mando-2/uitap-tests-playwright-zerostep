@@ -11,6 +11,6 @@ To use this project, follow these steps:
 3. Install the dependencies: `npm install`
 
 ## Usage
-To run the tests, execute the following command: docker compose up
-To complete the test run, execute the following command: docker compose down --rmi all
+1. To run the tests, execute the following command: docker compose up
+2. To complete the test run, execute the following command: docker compose down --rmi all
 
